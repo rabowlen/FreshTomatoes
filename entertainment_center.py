@@ -33,6 +33,8 @@ avengers_iw = media.Movie("Avengers: Infinity War",
                         "https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg",  # noqa
                         "https://www.youtube.com/watch?v=6ZfuNTqbHE8")
 
+# Creates an array of the movie titles above and 
+# passses the array to open_movies_page(), which will load them on the web.
 movies = [toy_story, avatar, its_a_wonderful_life, avengers_aou,
           the_wedding_singer, avengers_iw]
 fresh_tomatoes.open_movies_page(movies)
